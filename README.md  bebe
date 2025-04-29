@@ -1,6 +1,4 @@
-# php
-<p align="center">
-  <img src="    import boto3
+import boto3
 
 # Configura tus credenciales de AWS
 s3 = boto3.client('s3')
@@ -14,5 +12,3 @@ archivo_en_nube = 'carpeta/archivo.txt'
 # Subir archivo a S3
 s3.upload_file(archivo_local, bucket, archivo_en_nube)
 print("Archivo subido exitosamente a la nube.")
-       " alt="Laptop con gráficos animados" width="500"/>
-</p>
